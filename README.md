@@ -1,2 +1,17 @@
 # tls-redirector
-Simple application to redirect all request to their TLS endpoint
+7MB docker image that redirects all requests to their TLS endpoint
+
+## Usage
+
+    docker run -d -p 80:80 justmiles/tls-redirector:latest
+
+## Example
+
+    curl -I localhost/pages/xyz
+    HTTP/1.1 301 Moved Permanently
+    Content-Type: text/html; charset=utf-8
+    Location: https://localhost/pages/xyz
+
+## Building
+
+    docker build -t justmiles/tls-redirector .
