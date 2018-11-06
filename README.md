@@ -1,5 +1,7 @@
 # tls-redirector
-7MB docker image that redirects all requests to their TLS endpoint
+[![justmiles/tls-redirector](https://img.shields.io/badge/docker-justmiles/tls--redirector-brightgreen.svg)](https://hub.docker.com/r/justmiles/tls-redirector/)
+
+2MB docker image that redirects all requests to their TLS endpoint
 
 ## Usage
 
