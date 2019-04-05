@@ -13,8 +13,6 @@
     HTTP/1.1 301 Moved Permanently
     Content-Type: text/html; charset=utf-8
     Location: https://example.milesmaddox.com/
-    Date: Fri, 05 Apr 2019 19:32:11 GMT
-
 
 ## Building
 
