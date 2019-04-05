@@ -1,7 +1,7 @@
 # tls-redirector
 [![justmiles/tls-redirector](https://img.shields.io/badge/docker-justmiles/tls--redirector-brightgreen.svg)](https://hub.docker.com/r/justmiles/tls-redirector/)
 
-2MB docker image that redirects all requests to their TLS endpoint
+2MB docker image that redirects all requests to the TLS endpoint of the same name.
 
 ## Usage
 
@@ -9,10 +9,12 @@
 
 ## Example
 
-    curl -I localhost/pages/xyz
+    curl -I example.milesmaddox.com
     HTTP/1.1 301 Moved Permanently
     Content-Type: text/html; charset=utf-8
-    Location: https://localhost/pages/xyz
+    Location: https://example.milesmaddox.com/
+    Date: Fri, 05 Apr 2019 19:32:11 GMT
+
 
 ## Building
 
